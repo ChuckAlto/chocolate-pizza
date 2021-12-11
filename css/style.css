@@ -41,6 +41,7 @@ section>div {
 }
 
 
+
 *:not(.exclude){
   width: 960px;
 }
@@ -49,11 +50,11 @@ Header {
 }
 .hrOne {
   border: 0;
-  height: 25px;
+  height: 15px;
   background-image: url(../img/hr-img.png);
   background-repeat: repeat;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .imgOne{
@@ -71,12 +72,24 @@ Header {
 }
 
 .ulOne {
-  text-align: right;
+  float: right;
+  width: fit-content;
 }
 
+.ulOne li {
+  display: inline;
+}
 .ulTwo {
-  text-align: right;
+  float: right;
+  width: fit-content;
+}
+
+.ulTwo li {
+  display: inline;
 } 
+.ulOne li:last-child {
+  margin-right: 4px;  
+}
  
 main p {
   /* text-align: center; */
@@ -88,7 +101,23 @@ main p {
 }
 
 main a {
-  text-align: right;
+  float: right;
+  width: fit-content;
+}
+ 
+main h1 {
+  font-size: 40px;
+}
+main h2 {
+  font-size: 15px;
+  color: gray;
+}
+.pOne{
+  float:right;
+  width: fit-content;
+  color: gray;
+  font-size: 10px;
+  display: inline;
 }
 
 
