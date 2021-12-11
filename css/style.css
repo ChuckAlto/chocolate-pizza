@@ -1,4 +1,5 @@
 
+
 #lists {
   background-image: url(../img/list-bg.png);
   padding: 2%;
@@ -41,5 +42,56 @@ section>div {
   margin-top: 5%;
   margin-left: 5%;
   line-height: 25px;
+}
+
+=======
+* {
+  width: 960px;
+}
+Header {
+  height: 200px;
+}
+.hrOne {
+  border: 0;
+  height: 25px;
+  background-image: url(../img/hr-img.png);
+  background-repeat: repeat;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.imgOne{
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+
+.h1One {
+  font-size: 30px;
+}
+
+.h2One {
+  font-size: 15px;
+}
+
+.ulOne {
+  text-align: right;
+}
+
+.ulTwo {
+  text-align: right;
+} 
+ 
+main p {
+  /* text-align: center; */
+  margin-top: 30px;
+  width: 945px;
+  text-indent: 3%;
+  font-size: 20.5px;
+  
+}
+
+main a {
+  text-align: right;
 }
 
